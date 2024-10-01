@@ -62,15 +62,15 @@ params:
   profileMode:
     enabled: true
     title: "Nery Neto" # optional default will be site title
-    subtitle: "Machine Learning Engineer"
+    subtitle: "Computer Vision Developer"
     imageUrl: "profile.jpg" # optional
     imageTitle: "Christos Panagiotakopoulos' profile picture" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
 
     buttons:
-      - { name: Blog, url: "/posts" }
-      - { name: About, url: "/about" }
+      - { name: Blog, url: "/blog/posts" }
+      - { name: About, url: "/blog/about" }
 
   socialIcons: # optional
     - { name: "Github", url: "https://github.com/n3ry7" }
