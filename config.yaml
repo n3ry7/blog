@@ -1,0 +1,114 @@
+baseURL: "https://n3ry7.github.io/blog/"
+languageCode: "en-us"
+title: NeryNeto
+theme: PaperMod
+#
+# enableInlineShortcodes: true
+# enableRobotsTXT: true
+# googleAnalytics: UA-63248109-4
+#
+# buildDrafts: false
+# buildFuture: false
+# buildExpired: false
+#
+# relativeURLS: true
+#
+# outputs:
+#   home:
+#     - HTML
+#     - RSS
+#     - JSON
+#
+# paginate: 10
+# paginatePath: blog
+#
+# minify:
+#   disableXML: true
+#   minifyOutput: true
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+languages:
+  pt:
+    languageCode: pt-BR
+    languageDirection: ltr
+    languageName: Portuguese
+    title: Blog de IA
+    weight: 1
+  en:
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    title: AI Blog
+    weight: 2
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Machine Learning Engineer"
+  author: Nery Neto
+  # author: ["Me", "You"] # multiple authors
+  ShowPostNavLinks: true
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime:
+    true
+    # disableSpecial1stPost: true
+  displayFullLangName: true
+  comments: true
+  images: ["profile.jpg"]
+
+  profileMode:
+    enabled: true
+    title: "Nery Neto" # optional default will be site title
+    subtitle: "Machine Learning Engineer"
+    imageUrl: "profile.jpg" # optional
+    imageTitle: "Christos Panagiotakopoulos' profile picture" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+    buttons:
+      - { name: Blog, url: "/posts" }
+      - { name: About, url: "/about" }
+
+  socialIcons: # optional
+    - { name: "Github", url: "https://github.com/n3ry7" }
+    - { name: "LinkedIn", url: "https://www.linkedin.com/in/nery-marques/" }
+    - { name: "Instagram", url: "https://www.instagram.com/nerymarquesneto/" }
+    # - {
+    #     name: "Stackoverflow",
+    #     url: "https://stackoverflow.com/users/6141173/christos-panagiotakopoulos",
+    #   }
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - identifier: aboutme
+      name: about
+      url: /about
+      weight: 5
+    # - identifier: resume
+    #   name: resume
+    #   url: Christos_Panagiotakopoulos_-_Mid-Level_Backend_Software_Engineer.pdf
+    #   weight: 6
+    - identifier: home
+      name: home
+      url: https://n3ry7.github.io/blog/
+      weight: 3
+
+    - identifier: blog
+      name: blog
+      url: /posts
+      weight: 7
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
