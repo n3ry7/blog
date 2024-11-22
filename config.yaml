@@ -85,6 +85,9 @@ taxonomies:
   category: categories
   tag: tags
 
+params:
+  comments: true
+
 menu:
   main:
     - identifier: aboutme
