@@ -2,39 +2,16 @@ baseURL: "https://n3ry7.github.io/blog/"
 languageCode: "en-us"
 title: NeryNeto
 theme: PaperMod
-#
-# enableInlineShortcodes: true
-# enableRobotsTXT: true
-# googleAnalytics: UA-63248109-4
-#
-# buildDrafts: false
-# buildFuture: false
-# buildExpired: false
-#
-# relativeURLS: true
-#
-# outputs:
-#   home:
-#     - HTML
-#     - RSS
-#     - JSON
-#
-# paginate: 10
-# paginatePath: blog
-#
-# minify:
-#   disableXML: true
-#   minifyOutput: true
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 languages:
-  pt:
-    languageCode: pt-BR
-    languageDirection: ltr
-    languageName: Portuguese
-    title: Blog de IA
-    weight: 1
+  # pt:
+  #   languageCode: pt-BR
+  #   languageDirection: ltr
+  #   languageName: Portuguese
+  #   title: Blog de IA
+  #   weight: 1
   en:
     languageCode: en-US
     languageDirection: ltr
