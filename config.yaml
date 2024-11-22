@@ -21,6 +21,7 @@ languages:
 
 
 params:
+  comments: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Machine Learning Engineer"
   author: Nery Neto
@@ -62,8 +63,6 @@ taxonomies:
   category: categories
   tag: tags
 
-params:
-  comments: true
 
 menu:
   main:
